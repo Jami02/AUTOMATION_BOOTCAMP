@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-25T14:36:28 PST" name="Suite" finished-at="2023-11-25T14:38:51 PST" duration-ms="143790">
+    <groups>
+      <group name="RegisterTest">
+        <method signature="RegisterTest.verifyRegisterWithMandatoryDetails()[pri:1, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" name="verifyRegisterWithMandatoryDetails" class="com.Qa.Tutorialsninja.TestCases.RegisterTest"/>
+        <method signature="RegisterTest.verifyRegisterWithAllDetails()[pri:2, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" name="verifyRegisterWithAllDetails" class="com.Qa.Tutorialsninja.TestCases.RegisterTest"/>
+        <method signature="RegisterTest.verifyRegisterWithExistingEmail()[pri:3, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" name="verifyRegisterWithExistingEmail" class="com.Qa.Tutorialsninja.TestCases.RegisterTest"/>
+        <method signature="RegisterTest.verifyRegisterWithNoDetails()[pri:4, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" name="verifyRegisterWithNoDetails" class="com.Qa.Tutorialsninja.TestCases.RegisterTest"/>
+      </group> <!-- RegisterTest -->
+      <group name="SearchProductTest">
+        <method signature="SearchProductTest.testSearchValidProduct()[pri:1, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" name="testSearchValidProduct" class="com.Qa.Tutorialsninja.TestCases.SearchProductTest"/>
+        <method signature="SearchProductTest.testSearchNoProduct()[pri:3, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" name="testSearchNoProduct" class="com.Qa.Tutorialsninja.TestCases.SearchProductTest"/>
+        <method signature="SearchProductTest.testSearchInvalidProduct()[pri:5, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" name="testSearchInvalidProduct" class="com.Qa.Tutorialsninja.TestCases.SearchProductTest"/>
+      </group> <!-- SearchProductTest -->
+      <group name="login">
+        <method signature="LoginTest.verifyLoginWithValidEmailAndPassowrd()[pri:1, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" name="verifyLoginWithValidEmailAndPassowrd" class="com.Qa.Tutorialsninja.TestCases.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithValidEmailAndInvalidPassword()[pri:2, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" name="verifyLoginWithValidEmailAndInvalidPassword" class="com.Qa.Tutorialsninja.TestCases.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" name="verifyLoginWithInvalidEmailAndValidPassword" class="com.Qa.Tutorialsninja.TestCases.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithInvalidEmailAndInvalidPassword()[pri:4, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" name="verifyLoginWithInvalidEmailAndInvalidPassword" class="com.Qa.Tutorialsninja.TestCases.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithValidEmailAndClickLoginButton()[pri:5, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" name="verifyLoginWithValidEmailAndClickLoginButton" class="com.Qa.Tutorialsninja.TestCases.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithValidPasswordAndClickLoginButton()[pri:6, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" name="verifyLoginWithValidPasswordAndClickLoginButton" class="com.Qa.Tutorialsninja.TestCases.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithNoCredentialsAndClickLoginButton()[pri:7, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" name="verifyLoginWithNoCredentialsAndClickLoginButton" class="com.Qa.Tutorialsninja.TestCases.LoginTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2023-11-25T14:36:28 PST" name="Test" finished-at="2023-11-25T14:38:51 PST" duration-ms="143790">
+      <class name="com.Qa.Tutorialsninja.TestCases.RegisterTest">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:36:28 PST" name="registerSetup" finished-at="2023-11-25T14:36:39 PST" duration-ms="11191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetup -->
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:36:39 PST" name="verifyRegisterWithMandatoryDetails" finished-at="2023-11-25T14:36:41 PST" duration-ms="2072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="tearDownn()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:36:41 PST" name="tearDownn" finished-at="2023-11-25T14:36:41 PST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownn -->
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:36:41 PST" name="registerSetup" finished-at="2023-11-25T14:36:49 PST" duration-ms="7222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetup -->
+        <test-method signature="verifyRegisterWithAllDetails()[pri:2, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:36:49 PST" name="verifyRegisterWithAllDetails" finished-at="2023-11-25T14:36:51 PST" duration-ms="2128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithAllDetails -->
+        <test-method is-config="true" signature="tearDownn()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:36:51 PST" name="tearDownn" finished-at="2023-11-25T14:36:51 PST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownn -->
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:36:51 PST" name="registerSetup" finished-at="2023-11-25T14:36:58 PST" duration-ms="6308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetup -->
+        <test-method signature="verifyRegisterWithExistingEmail()[pri:3, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:36:58 PST" name="verifyRegisterWithExistingEmail" finished-at="2023-11-25T14:36:59 PST" duration-ms="1305" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.CharSequence.toString()" because "s" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()" because "s" is null
+at java.base/java.lang.String.contains(String.java:2856)
+at com.Qa.Tutorialsninja.TestCases.RegisterTest.verifyRegisterWithExistingEmail(RegisterTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithExistingEmail -->
+        <test-method is-config="true" signature="tearDownn()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:36:59 PST" name="tearDownn" finished-at="2023-11-25T14:36:59 PST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownn -->
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:36:59 PST" name="registerSetup" finished-at="2023-11-25T14:37:06 PST" duration-ms="6326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetup -->
+        <test-method signature="verifyRegisterWithNoDetails()[pri:4, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:37:06 PST" name="verifyRegisterWithNoDetails" finished-at="2023-11-25T14:37:06 PST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithNoDetails -->
+        <test-method is-config="true" signature="tearDownn()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.RegisterTest@76b1e9b8]" started-at="2023-11-25T14:37:06 PST" name="tearDownn" finished-at="2023-11-25T14:37:07 PST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownn -->
+      </class> <!-- com.Qa.Tutorialsninja.TestCases.RegisterTest -->
+      <class name="com.Qa.Tutorialsninja.TestCases.SearchProductTest">
+        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" started-at="2023-11-25T14:37:07 PST" name="searchProductSetup" finished-at="2023-11-25T14:37:12 PST" duration-ms="5674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductSetup -->
+        <test-method signature="testSearchValidProduct()[pri:1, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" started-at="2023-11-25T14:37:12 PST" name="testSearchValidProduct" finished-at="2023-11-25T14:37:14 PST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" started-at="2023-11-25T14:37:14 PST" name="tearDown" finished-at="2023-11-25T14:37:14 PST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" started-at="2023-11-25T14:37:14 PST" name="searchProductSetup" finished-at="2023-11-25T14:37:21 PST" duration-ms="7139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductSetup -->
+        <test-method signature="testSearchNoProduct()[pri:3, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" started-at="2023-11-25T14:37:21 PST" name="testSearchNoProduct" finished-at="2023-11-25T14:37:23 PST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchNoProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" started-at="2023-11-25T14:37:23 PST" name="tearDown" finished-at="2023-11-25T14:37:23 PST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" started-at="2023-11-25T14:37:23 PST" name="searchProductSetup" finished-at="2023-11-25T14:37:29 PST" duration-ms="5835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductSetup -->
+        <test-method signature="testSearchInvalidProduct()[pri:5, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" started-at="2023-11-25T14:37:29 PST" name="testSearchInvalidProduct" finished-at="2023-11-25T14:37:30 PST" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.SearchProductTest@5e2c3d18]" started-at="2023-11-25T14:37:30 PST" name="tearDown" finished-at="2023-11-25T14:37:30 PST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Qa.Tutorialsninja.TestCases.SearchProductTest -->
+      <class name="com.Qa.Tutorialsninja.TestCases.LoginTest">
+        <test-method is-config="true" signature="setUpForLogin()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:37:30 PST" name="setUpForLogin" finished-at="2023-11-25T14:37:37 PST" duration-ms="6772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForLogin -->
+        <test-method signature="verifyLoginWithValidEmailAndPassowrd()[pri:1, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:37:37 PST" name="verifyLoginWithValidEmailAndPassowrd" finished-at="2023-11-25T14:37:39 PST" duration-ms="2278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndPassowrd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:37:39 PST" name="tearDown" finished-at="2023-11-25T14:37:40 PST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForLogin()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:37:40 PST" name="setUpForLogin" finished-at="2023-11-25T14:37:47 PST" duration-ms="7131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForLogin -->
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:2, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:37:47 PST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2023-11-25T14:37:48 PST" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:37:48 PST" name="tearDown" finished-at="2023-11-25T14:37:49 PST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForLogin()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:37:49 PST" name="setUpForLogin" finished-at="2023-11-25T14:37:55 PST" duration-ms="6286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForLogin -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:37:55 PST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2023-11-25T14:37:56 PST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:37:56 PST" name="tearDown" finished-at="2023-11-25T14:37:57 PST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForLogin()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:37:57 PST" name="setUpForLogin" finished-at="2023-11-25T14:38:03 PST" duration-ms="6664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForLogin -->
+        <test-method signature="verifyLoginWithInvalidEmailAndInvalidPassword()[pri:4, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:38:03 PST" name="verifyLoginWithInvalidEmailAndInvalidPassword" finished-at="2023-11-25T14:38:04 PST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:38:04 PST" name="tearDown" finished-at="2023-11-25T14:38:05 PST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForLogin()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:38:05 PST" name="setUpForLogin" finished-at="2023-11-25T14:38:13 PST" duration-ms="8090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForLogin -->
+        <test-method signature="verifyLoginWithValidEmailAndClickLoginButton()[pri:5, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:38:13 PST" name="verifyLoginWithValidEmailAndClickLoginButton" finished-at="2023-11-25T14:38:33 PST" duration-ms="20213" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,  'alert-dismissible')]"}
+  (Session info: MicrosoftEdge=119.0.2151.72)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cc1f10bcaba2a6c11719bbfa4a4cf9ad, findElement {using=xpath, value=//div[contains(@class,  'alert-dismissible')]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51436}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51436/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc1f10bcaba2a6c11719bbfa4a4cf9ad]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,  'alert-dismissible')]"}
+  (Session info: MicrosoftEdge=119.0.2151.72)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cc1f10bcaba2a6c11719bbfa4a4cf9ad, findElement {using=xpath, value=//div[contains(@class,  'alert-dismissible')]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51436}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51436/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc1f10bcaba2a6c11719bbfa4a4cf9ad
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+at com.Qa.Tutorialsninja.Pages.LoginPage.retrieveNoMatchForEMailAddressOrPasswordWarningMessageText(LoginPage.java:53)
+at com.Qa.Tutorialsninja.TestCases.LoginTest.verifyLoginWithValidEmailAndClickLoginButton(LoginTest.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndClickLoginButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:38:33 PST" name="tearDown" finished-at="2023-11-25T14:38:33 PST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForLogin()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:38:33 PST" name="setUpForLogin" finished-at="2023-11-25T14:38:41 PST" duration-ms="7784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForLogin -->
+        <test-method signature="verifyLoginWithValidPasswordAndClickLoginButton()[pri:6, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:38:41 PST" name="verifyLoginWithValidPasswordAndClickLoginButton" finished-at="2023-11-25T14:38:42 PST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidPasswordAndClickLoginButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:38:42 PST" name="tearDown" finished-at="2023-11-25T14:38:42 PST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForLogin()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:38:42 PST" name="setUpForLogin" finished-at="2023-11-25T14:38:50 PST" duration-ms="7984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForLogin -->
+        <test-method signature="verifyLoginWithNoCredentialsAndClickLoginButton()[pri:7, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:38:50 PST" name="verifyLoginWithNoCredentialsAndClickLoginButton" finished-at="2023-11-25T14:38:51 PST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentialsAndClickLoginButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Qa.Tutorialsninja.TestCases.LoginTest@2cb4893b]" started-at="2023-11-25T14:38:51 PST" name="tearDown" finished-at="2023-11-25T14:38:51 PST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Qa.Tutorialsninja.TestCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
